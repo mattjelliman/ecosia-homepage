@@ -1,4 +1,60 @@
 h1 {
 	color: black;
 	text-align: center;
+	font-size: 18px;
 	}
+
+.footer-image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#header-text {
+	color: green;
+	font-family: 'Oswald';font-size: 24px;
+}
+
+#logo-panel {
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+#ec-text {
+	color: green;
+	text-transform: uppercase;
+	font-family: 'Oswald';font-size: 32px;
+	transform: rotate(-20deg);
+	font-weight: bold;
+}
+
+#logo {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#sia-text {
+	color: green;
+	text-transform: uppercase;
+	font-family: 'Oswald';font-size: 32px;
+	transform: rotate(20deg);
+	font-weight: bold;
+}
+
+#search-panel {
+	display: flex;
+	margin-bottom: 200px;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-form-text {
+	font-family: 'Oswald';font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

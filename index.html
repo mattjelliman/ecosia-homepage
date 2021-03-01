@@ -3,22 +3,32 @@
 <head>
   <title>This is Matt's attempt to copy the Ecosia homepage</title>
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
   <link rel="icon"
     type="image/png" 
     href="index.ico" />
 </head>
 <body>
+  <header>
+    <div id="header-text">
+      <h1><a href="https://www.youtube.com/watch?v=yRDA1ynrHTU" target="_blank">Your searches don't just plant trees! Watch the video!</a></h1>
+    </div>
+  </header>
   <main>
-    <h1><a href="https://www.youtube.com/watch?v=yRDA1ynrHTU" target="_blank">Your searches don't just plant trees! Watch video!</a></h1>
-    <p>Ec</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ecosia-like_logo.svg/200px-Ecosia-like_logo.svg.png" alt="Ecosia logo"
-    <p>sia </p>
-    <form action="https://www.ecosia.org/search?q=">
-      <input type ="text" placeholder="Search the web to plant trees...">
-    </form>
+   <div id="logo-panel">
+    <div id="ec-text">ec</div>
+      <div id="logo"><a href="https://www.ecosia.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ecosia-like_logo.svg/200px-Ecosia-like_logo.svg.png" alt="Ecosia logo" height="75" width="75"></a></div>
+      <div id="sia-text">sia</div>
+    </div>
+    <div id="search-panel">
+      <form action="https://www.ecosia.org/search?q=">
+        <input class="search-form-text" type ="search" placeholder="Search the web to plant trees..." required="required">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </main>
   <footer>
-    <img src="https://cdn-indexpage.ecosia.org/img/5a18884.png" alt="footer landscape image">
+    <img src="https://cdn-indexpage.ecosia.org/img/5a18884.png" alt="footer landscape image" class="footer-image">
   </footer>
 </body>
 </html>
